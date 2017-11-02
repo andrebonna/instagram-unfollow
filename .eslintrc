@@ -1,0 +1,30 @@
+{
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "comma-dangle": [
+            2,
+            "never"
+        ],
+        "no-undef": 2,
+        "semi": 2,
+        "valid-jsdoc": 0,
+        "require-jsdoc": 0,
+        "padded-blocks": 0,
+        "max-len": [1, 120],
+        "indent": [2, 4],
+        "import/no-dynamic-require": 0,
+        "import/newline-after-import": 0,
+        "import/prefer-default-export": 0
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 6
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    }
+}
